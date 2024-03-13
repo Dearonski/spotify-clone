@@ -10,10 +10,10 @@ const Liked = async () => {
 
     return (
         <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
-            <Header>
+            <Header className="from-violet-600">
                 <div className="mt-20">
                     <div className="flex flex-col md:flex-row items-center gap-x-5">
-                        <div className="relative h-32 w-32 lg:w-44 lg:h-44">
+                        <div className="relative h-32 w-32 lg:w-44 lg:h-44 rounded-lg overflow-hidden">
                             <Image
                                 fill
                                 src="/images/liked.png"
